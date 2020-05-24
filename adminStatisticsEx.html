@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Pre-registration" />
+    <meta name="keywords" content="HTML,CSS,JavaScript" />
+    <meta name="author" content="Adem Dugalić" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no"
+    />
+    <title>Pre Registration</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+    <script type="application/javascript" src="js/pie.js"></script>
+  </head>
+  <body>
+    <div class="outerWrapper">
+      <div class="wrapper">
+        <nav class="navigation">
+          <div class="logo">
+            <img class="ius" src="img/IUSlogo2.png" />
+            <span class="user">Administrator</span>
+          </div>
+          <div class="upButtons">
+            <div class="links">
+              <a id="home" href="adminHome.html"
+                ><span data-hover="Home">Home</span></a
+              >
+              <a id="MyCourses" href="adminCourses.html"
+                ><span data-hover="MyCourses">Courses</span></a
+              >
+              <a id="AddCourses" href="adminStudents.html"
+                ><span data-hover="AddCourses">Students</span></a
+              >
+              <a id="AddCourses" href="#"
+                ><span data-hover="AddCourses">Statistics</span></a
+              >
+            </div>
+          </div>
+          <!--<div class="divider"></div>-->
+          <div class="downButtons">
+            <div class="links">
+              <a id="LogOut" href="#"
+                ><span data-hover="LogOut">Log Out</span></a
+              >
+            </div>
+          </div>
+        </nav>
+        <div class="addCourses">
+          <div class="menu">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+          <div class="upperNav">
+            <div class="search">
+              <form class="searchForm">
+                <input type="search" name="search" placeholder="Search" />
+              </form>
+              <button class="magnifier">
+                <img src="../img/magnifier.png" class="manifierImg" />
+              </button>
+            </div>
+            <div class="prevNext">
+              <button><</button>
+              <button>></button>
+            </div>
+          </div>
+          <div class="addCoursesDownNav">
+            <div class="typeOfCourses">
+              <a class="blueBorder" id="marginZero" href="addCourses.html"
+                >Statistics</a
+              >
+            </div>
+          </div>
+          <div class="StatisticsEx">
+            <div class="courseDetails">
+              <div class="info">
+                <div class="innerInfo">
+                  <div class="data">
+                    <span class="subject"
+                      >Total number of students registered: </span
+                    ><span class="number">55</span>
+                  </div>
+                  <div class="data">
+                    <span class="subject"
+                      >Students which choose it as a second option: </span
+                    ><span class="number">20</span>
+                  </div>
+                  <div class="data">
+                    <span class="subject">CSE: </span
+                    ><span class="number">15</span>
+                  </div>
+                  <div class="data">
+                    <span class="subject">SE: </span
+                    ><span class="number">35</span>
+                  </div>
+                  <div class="data">
+                    <span class="subject">EE: </span
+                    ><span class="number">5</span>
+                  </div>
+                </div>
+              </div>
+              <div class="description">
+                <h2>CS308 Software Engineering</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>

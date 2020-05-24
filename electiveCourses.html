@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Pre-registration" />
+    <meta name="keywords" content="HTML,CSS,JavaScript" />
+    <meta name="author" content="Adem Dugalić" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no"
+    />
+    <title>Pre Registration</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="outerWrapper">
+      <div class="wrapper">
+        <nav class="navigation">
+          <div class="logo">
+            <img class="ius" src="img/IUSlogo2.png" />
+            <span class="user">Adem Dugalić</span>
+          </div>
+          <div class="upButtons">
+            <div class="links">
+              <a id="home" href="index.html"
+                ><span data-hover="Home">Home</span></a
+              >
+              <a id="MyCourses" href="myCourses.html"
+                ><span data-hover="MyCourses">My courses</span></a
+              >
+              <a id="AddCourses" href="addCourses.html"
+                ><span data-hover="AddCourses">Add courses</span></a
+              >
+              <a id="Schedule" href="schedule.html"
+                ><span data-hover="Schedule">Schedule</span></a
+              >
+            </div>
+          </div>
+          <!--<div class="divider"></div>-->
+          <div class="downButtons">
+            <div class="links">
+              <a id="LogOut" href="#"
+                ><span data-hover="LogOut">Log Out</span></a
+              >
+            </div>
+          </div>
+        </nav>
+        <div class="addCourses">
+          <div class="menu">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+          <div class="upperNav">
+            <div class="search">
+              <form class="searchForm">
+                <input type="search" name="search" placeholder="Search" />
+              </form>
+              <button class="magnifier">
+                <img src="../img/magnifier.png" class="manifierImg" />
+              </button>
+            </div>
+            <div class="prevNext">
+              <button><</button>
+              <button>></button>
+            </div>
+          </div>
+          <div class="addCoursesDownNav">
+            <div class="typeOfCourses">
+              <a class="blueBorder" href="addCourses.html">All courses</a>
+              <a href="mandatoryCourses.html">Mandatory courses</a>
+              <a href="electiveCourses.html">Elective courses</a>
+            </div>
+          </div>
+          <div class="electiveCourses">
+            <table class="courses">
+              <thead>
+                <tr>
+                  <th class="thead" colspan="6">
+                    University Elective Courses
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="info">
+                  <td>Course Code</td>
+                  <td>Course Name</td>
+                  <td>Credit</td>
+                  <td>Proffesor</td>
+                  <td>Prerequisites</td>
+                  <td>Add Course</td>
+                </tr>
+                <tr>
+                  <td class="title">CS103</td>
+                  <td>Introduction to Programming</td>
+                  <td>3 | 6</td>
+                  <td>Džejla Međedović</td>
+                  <td>None</td>
+                  <td>
+                    <div class="button"><button>Add Course</button></div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="title">ELIT100</td>
+                  <td>Academic English and Effective Communication</td>
+                  <td>3 | 6</td>
+                  <td>Elmedin Zubović</td>
+                  <td>None</td>
+                  <td>
+                    <div class="button"><button>Add Course</button></div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="title">MATH101</td>
+                  <td>Calculus I</td>
+                  <td>3 | 6</td>
+                  <td>Lejla Miller</td>
+                  <td>None</td>
+                  <td>
+                    <div class="button"><button>Add Course</button></div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="title">NS112</td>
+                  <td>Understanding Science and Technology</td>
+                  <td>1.5 | 3</td>
+                  <td>Asif Šabanović</td>
+                  <td>None</td>
+                  <td>
+                    <div class="button"><button>Add Course</button></div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="title">PSY103</td>
+                  <td>Introduction to Psychology</td>
+                  <td>3 | 6</td>
+                  <td>Bojan Šošić</td>
+                  <td>None</td>
+                  <td>
+                    <div class="button"><button>Add Course</button></div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="title">TURK111</td>
+                  <td>Spoken Turkish I</td>
+                  <td>1.5 | 3</td>
+                  <td>Minela Sinanović</td>
+                  <td>None</td>
+                  <td>
+                    <div class="button"><button>Add Course</button></div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="title">MATH201</td>
+                  <td>Linear Algebra</td>
+                  <td>3 | 6</td>
+                  <td>Mehmet Can</td>
+                  <td>MATH101</td>
+                  <td>
+                    <div class="button"><button>Add Course</button></div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="title">PSY103</td>
+                  <td>Introduction to Psychology</td>
+                  <td>3 | 6</td>
+                  <td>Bojan Šošić</td>
+                  <td>None</td>
+                  <td>
+                    <div class="button"><button>Add Course</button></div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="title">TURK111</td>
+                  <td>Spoken Turkish I</td>
+                  <td>1.5 | 3</td>
+                  <td>Minela Sinanović</td>
+                  <td>None</td>
+                  <td>
+                    <div class="button"><button>Add Course</button></div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="title">MATH201</td>
+                  <td>Linear Algebra</td>
+                  <td>3 | 6</td>
+                  <td>Mehmet Can</td>
+                  <td>MATH101</td>
+                  <td>
+                    <div class="button"><button>Add Course</button></div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <table class="courses">
+              <thead>
+                <tr>
+                  <th class="thead" colspan="6">
+                    Facultiy Elective Courses
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="info">
+                  <td>Course Code</td>
+                  <td>Course Name</td>
+                  <td>Credit</td>
+                  <td>Proffesor</td>
+                  <td>Prerequisites</td>
+                  <td>Add Course</td>
+                </tr>
+                <tr>
+                  <td class="title">CS103</td>
+                  <td>Introduction to Programming</td>
+                  <td>3 | 6</td>
+                  <td>Džejla Međedović</td>
+                  <td>None</td>
+                  <td>
+                    <div class="button"><button>Add Course</button></div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="title">ELIT100</td>
+                  <td>Academic English and Effective Communication</td>
+                  <td>3 | 6</td>
+                  <td>Elmedin Zubović</td>
+                  <td>None</td>
+                  <td>
+                    <div class="button"><button>Add Course</button></div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="title">MATH101</td>
+                  <td>Calculus I</td>
+                  <td>3 | 6</td>
+                  <td>Lejla Miller</td>
+                  <td>None</td>
+                  <td>
+                    <div class="button"><button>Add Course</button></div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="title">NS112</td>
+                  <td>Understanding Science and Technology</td>
+                  <td>1.5 | 3</td>
+                  <td>Asif Šabanović</td>
+                  <td>None</td>
+                  <td>
+                    <div class="button"><button>Add Course</button></div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="title">PSY103</td>
+                  <td>Introduction to Psychology</td>
+                  <td>3 | 6</td>
+                  <td>Bojan Šošić</td>
+                  <td>None</td>
+                  <td>
+                    <div class="button"><button>Add Course</button></div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="title">TURK111</td>
+                  <td>Spoken Turkish I</td>
+                  <td>1.5 | 3</td>
+                  <td>Minela Sinanović</td>
+                  <td>None</td>
+                  <td>
+                    <div class="button"><button>Add Course</button></div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="title">MATH201</td>
+                  <td>Linear Algebra</td>
+                  <td>3 | 6</td>
+                  <td>Mehmet Can</td>
+                  <td>MATH101</td>
+                  <td>
+                    <div class="button"><button>Add Course</button></div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="title">PSY103</td>
+                  <td>Introduction to Psychology</td>
+                  <td>3 | 6</td>
+                  <td>Bojan Šošić</td>
+                  <td>None</td>
+                  <td>
+                    <div class="button"><button>Add Course</button></div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="title">TURK111</td>
+                  <td>Spoken Turkish I</td>
+                  <td>1.5 | 3</td>
+                  <td>Minela Sinanović</td>
+                  <td>None</td>
+                  <td>
+                    <div class="button"><button>Add Course</button></div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="title">MATH201</td>
+                  <td>Linear Algebra</td>
+                  <td>3 | 6</td>
+                  <td>Mehmet Can</td>
+                  <td>MATH101</td>
+                  <td>
+                    <div class="button"><button>Add Course</button></div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <table class="courses">
+              <thead>
+                <tr>
+                  <th class="thead" colspan="6">
+                    Programm Elective Courses
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="info">
+                  <td>Course Code</td>
+                  <td>Course Name</td>
+                  <td>Credit</td>
+                  <td>Proffesor</td>
+                  <td>Prerequisites</td>
+                  <td>Add Course</td>
+                </tr>
+                <tr>
+                  <td class="title">CS103</td>
+                  <td>Introduction to Programming</td>
+                  <td>3 | 6</td>
+                  <td>Džejla Međedović</td>
+                  <td>None</td>
+                  <td>
+                    <div class="button"><button>Add Course</button></div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="title">ELIT100</td>
+                  <td>Academic English and Effective Communication</td>
+                  <td>3 | 6</td>
+                  <td>Elmedin Zubović</td>
+                  <td>None</td>
+                  <td>
+                    <div class="button"><button>Add Course</button></div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="title">MATH101</td>
+                  <td>Calculus I</td>
+                  <td>3 | 6</td>
+                  <td>Lejla Miller</td>
+                  <td>None</td>
+                  <td>
+                    <div class="button"><button>Add Course</button></div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="title">NS112</td>
+                  <td>Understanding Science and Technology</td>
+                  <td>1.5 | 3</td>
+                  <td>Asif Šabanović</td>
+                  <td>None</td>
+                  <td>
+                    <div class="button"><button>Add Course</button></div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="title">PSY103</td>
+                  <td>Introduction to Psychology</td>
+                  <td>3 | 6</td>
+                  <td>Bojan Šošić</td>
+                  <td>None</td>
+                  <td>
+                    <div class="button"><button>Add Course</button></div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="title">TURK111</td>
+                  <td>Spoken Turkish I</td>
+                  <td>1.5 | 3</td>
+                  <td>Minela Sinanović</td>
+                  <td>None</td>
+                  <td>
+                    <div class="button"><button>Add Course</button></div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="title">MATH201</td>
+                  <td>Linear Algebra</td>
+                  <td>3 | 6</td>
+                  <td>Mehmet Can</td>
+                  <td>MATH101</td>
+                  <td>
+                    <div class="button"><button>Add Course</button></div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="title">PSY103</td>
+                  <td>Introduction to Psychology</td>
+                  <td>3 | 6</td>
+                  <td>Bojan Šošić</td>
+                  <td>None</td>
+                  <td>
+                    <div class="button"><button>Add Course</button></div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="title">TURK111</td>
+                  <td>Spoken Turkish I</td>
+                  <td>1.5 | 3</td>
+                  <td>Minela Sinanović</td>
+                  <td>None</td>
+                  <td>
+                    <div class="button"><button>Add Course</button></div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="title">MATH201</td>
+                  <td>Linear Algebra</td>
+                  <td>3 | 6</td>
+                  <td>Mehmet Can</td>
+                  <td>MATH101</td>
+                  <td>
+                    <div class="button"><button>Add Course</button></div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script type="text/javascript" src="js/main.js"></script>
+</html>
